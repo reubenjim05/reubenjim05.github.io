@@ -1,108 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tourist Spots in Baguio City</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f4f8;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4a7c59;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        .container {
-            padding: 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
-        .spot {
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            margin-bottom: 30px;
-            overflow: hidden;
-        }
-        .spot img {
-            width: 100%;
-            height: auto;
-        }
-        .spot-content {
-            padding: 15px;
-        }
-        .spot h2 {
-            margin-top: 0;
-            color: #4a7c59;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #dce1de;
-            color: #555;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UC Sports Development - Reubenjim Camarao</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f5f5f5;
+      color: #333;
+      padding: 1rem;
+    }
+
+    header, main, footer {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    nav a {
+      margin-right: 1rem;
+    }
+
+    a:focus, button:focus {
+      outline: 2px dashed #000;
+      outline-offset: 4px;
+    }
+  </style>
 </head>
 <body>
 
-<header>
-    <h1>Top Tourist Spots in Baguio City</h1>
-    <p>The Summer Capital of the Philippines</p>
-</header>
+  <header role="banner">
+    <h1>University of the Cordilleras</h1>
+    <p><strong>Sports Development Program</strong></p>
+    <nav role="navigation" aria-label="Main Navigation">
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#coordinator">Coordinator</a>
+    </nav>
+  </header>
 
-<div class="container">
+  <main role="main">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About the Sports Development Program</h2>
+      <p>
+        The University of the Cordilleras promotes student well-being and excellence through its Sports Development Program. It encourages holistic growth, teamwork, and leadership by offering training and competitive opportunities in a wide range of athletic disciplines.
+      </p>
+    </section>
 
-    <div class="spot">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Burnham_Park%2C_Baguio_City.jpg" alt="Burnham Park">
-        <div class="spot-content">
-            <h2>Burnham Park</h2>
-            <p>A popular leisure park in the heart of Baguio City, perfect for boating, biking, and relaxing walks.</p>
-        </div>
-    </div>
+    <section id="programs" aria-labelledby="programs-heading">
+      <h2 id="programs-heading">Sports Programs Offered</h2>
+      <ul>
+        <li>Basketball</li>
+        <li>Volleyball</li>
+        <li>Track and Field</li>
+        <li>Swimming</li>
+        <li>Taekwondo</li>
+        <li>Chess</li>
+        <li>Table Tennis</li>
+        <li>Badminton</li>
+      </ul>
+    </section>
 
-    <div class="spot">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Mines_View_Park_Baguio.jpg" alt="Mines View Park">
-        <div class="spot-content">
-            <h2>Mines View Park</h2>
-            <p>Enjoy a panoramic view of Benguet’s mining town. Don’t miss the local souvenirs and photo ops with native attire!</p>
-        </div>
-    </div>
+    <section id="coordinator" aria-labelledby="coordinator-heading">
+      <h2 id="coordinator-heading">Meet the Coordinator: Reubenjim Camarao</h2>
+      <img src="reubenjim-camarao.jpg" alt="Portrait of Reubenjim Camarao, UC Sports Coordinator" />
+      <p>
+        <strong>Reubenjim Camarao</strong> is the current Sports Development Coordinator at the University of the Cordilleras. With a strong background in athletics and student leadership, he works to enhance sports engagement across the university and ensure student-athletes thrive in both academics and physical performance.
+      </p>
+    </section>
+  </main>
 
-    <div class="spot">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/The_Mansion_House_Baguio.jpg" alt="The Mansion">
-        <div class="spot-content">
-            <h2>The Mansion</h2>
-            <p>The official summer residence of the Philippine President. A beautiful spot for photos and historic insight.</p>
-        </div>
-    </div>
-
-    <div class="spot">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Wright_Park_Baguio.jpg" alt="Wright Park">
-        <div class="spot-content">
-            <h2>Wright Park</h2>
-            <p>Famous for its "Pool of Pines" and horseback riding. Great for family fun and outdoor experiences.</p>
-        </div>
-    </div>
-
-    <div class="spot">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Baguio_Botanical_Garden.jpg" alt="Botanical Garden">
-        <div class="spot-content">
-            <h2>Baguio Botanical Garden</h2>
-            <p>A peaceful retreat filled with native plants, statues, and beautiful walkways showcasing local culture.</p>
-        </div>
-    </div>
-
-</div>
-
-<footer>
-    <p>&copy; 2025 Discover Baguio | All Rights Reserved</p>
-</footer>
+  <footer role="contentinfo">
+    <p>&copy; 2025 University of the Cordilleras. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
